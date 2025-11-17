@@ -18,19 +18,7 @@ const Contact = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <Card className="p-8 bg-card/50 backdrop-blur border-primary/20 hover:border-primary/50 transition-all duration-300">
-              <Mail className="w-10 h-10 text-primary mb-4" />
-              <h3 className="text-xl font-bold mb-2 text-foreground">ایمیل</h3>
-              <p className="text-muted-foreground" dir="ltr">info@aurelion.games</p>
-            </Card>
-
-            <Card className="p-8 bg-card/50 backdrop-blur border-primary/20 hover:border-primary/50 transition-all duration-300">
-              <MessageSquare className="w-10 h-10 text-primary mb-4" />
-              <h3 className="text-xl font-bold mb-2 text-foreground">پشتیبانی</h3>
-              <p className="text-muted-foreground" dir="ltr">support@aurelion.games</p>
-            </Card>
-          </div>
+         
 
           <Card className="p-8 md:p-12 bg-gradient-to-br from-cosmic-blue/30 to-cosmic-purple/30 backdrop-blur border-primary/20 text-center">
             <Send className="w-16 h-16 text-primary mx-auto mb-6" />
@@ -40,7 +28,7 @@ const Contact = () => {
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
               اگر یک استودیوی بازی‌سازی مستقل هستید و به دنبال ناشری قابل اعتماد می‌گردید، دوست داریم درباره پروژه شما بیشتر بدانیم
             </p>
-            <Button 
+            <Button onClick={() => window.open("https://t.me/Nameless_Entt", "_blank")}
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6 shadow-[var(--glow-gold)]"
             >
