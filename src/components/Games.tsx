@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import WCImage from "@/assets/WC.jpg";
-import FABImage from "@/assets/FAB.jpg";
+import FABImage from "@/assets/FabStore.jpg";
 import CHASEImage from "@/assets/CHASE.jpg";
 const Games = () => {
   const games = [
